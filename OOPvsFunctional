@@ -1,0 +1,9 @@
+
+
+## Pairing with Wataru
+
+Point of a class is to store state and corresponding methods.
+
+Repository class does not have state we are trying to manage
+
+Wataru - 'OOP is not the paradigm we want to use in current development'
