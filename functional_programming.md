@@ -16,3 +16,7 @@ Functional proramming:
 
 Dependency Injection:
 - fetchTeam
+
+
+## Piaring w/ Brandon 5/14/25
+
