@@ -1,4 +1,5 @@
 
+0. Ideally event storming preceedes this and identifies an aggregate or atleast an entity to start this next process
 1. Define route
 2. Ask... what is a route
 3. Define some attributes of a route
