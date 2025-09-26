@@ -1,0 +1,23 @@
+# Place to take notes daily
+
+## End day by transcribing notes from here to specific documents. Goal of reinforcing learning and organization.
+
+### EXP - Present
+
+#### Roadmap.sh/backend
+##### Internet - How does the internet work - How does the Internet Work article
+
+- Network - a group of computer or other devices that are connected to eachother e.g. network in your home
+- Internet is a network of networks
+- High level: works by connectin devises and computer systems togther using standardized protocols
+- Core of internet: global network of interconnected routers
+- Protocols: IP, TCP, DNS, HTTP, SSL/TLS
+- Packet: A small unit of data that is transmitted over the internet.
+- Router: A device that directs packets of data between different networks.
+- IP Address: A unique identifier assigned to each device on a network, used to route data to the correct destination.
+- Domain Name: A human-readable name that is used to identify a website, such as google.com.
+- DNS: The Domain Name System is responsible for translating domain names into IP addresses.
+- HTTP: The Hypertext Transfer Protocol is used to transfer data between a client (such as a web browser) and a server (such as a website).
+- HTTPS: An encrypted version of HTTP that is used to provide secure communication between a client and server.
+- SSL/TLS: The Secure Sockets Layer and Transport Layer Security protocols are used to provide secure communication over the internet.
+- 
