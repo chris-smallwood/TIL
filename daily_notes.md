@@ -21,3 +21,14 @@
 - HTTPS: An encrypted version of HTTP that is used to provide secure communication between a client and server.
 - SSL/TLS: The Secure Sockets Layer and Transport Layer Security protocols are used to provide secure communication over the internet.
 - 
+
+##### Internet - How does the internet work - How does the Internet Work short youtube
+- IP Address: every website is stored on a server in a datacenter which also has an ip address. You could access that server by the ip address but obviously difficult for humans to remember so we use domain names.
+- DNS server provides a directory which links ip addresses to domain names
+- ICANN corporation that regulates
+- Data is transferred in small data packets that include a sequence number which is used to reassemble the packets in order at the destination device
+- Protocols
+
+### Wataru Pairing
+- write tests against our code, not a library being used
+- 
