@@ -1,8 +1,17 @@
 
 
-`export function createService(dependencies: { notifier: Notifier; logger: PTLogger }): 
-{ exposedFunction: customTypeOfExposedFunction } {
-  return { exposedFunction: (exposedFunctionParams) => { ...exposedFunction definition. probably use dependencies? } }`
+`export function createService(
+  dependencies: { 
+    notifier: Notifier; 
+    logger: PTLogger 
+  }): 
+  { exposedFunction: customTypeOfExposedFunction } {
+    return { 
+      exposedFunction: (exposedFunctionParams) => { 
+        ...exposedFunction definition. probably use dependencies? 
+      } 
+    }
+  }`
   - classic factory function pattern
     - encapsulates the Service's logic
     - allows dependency injection (testing and flexibility)
