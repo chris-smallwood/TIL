@@ -17,3 +17,18 @@ Tip: usually easier to compose small units into a larger one than decompose a la
 More downstream consequences in your code base when decomposing vs composing
 
 pipeline operator in TS (coming out in future version of TS): step1 |> step2 |> step3
+
+
+## Translating to Code
+- add text file from above process into a test file e.g. notes.txt
+- Goal: be able to change functionality of application just by adding a field to the routeSchema and not have to propogate that change anywhere else for the code to still work
+- Now adding a use case, Add Route
+  - 
+
+tip: commits should tell a story, this is how I completed the work for this ticket.
+tip: 
+  - language for endpoint layer: HTTP e.g. put, post, etc.
+  - language for repository layer: CRUD e.g. create, read, etc.
+  - language for service (use case) layer: whatever your ubiquitous language is
+    - MEANING: steer away from HTTP or CRUD language when defining ubiquitous language
+
