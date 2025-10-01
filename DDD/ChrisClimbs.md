@@ -22,8 +22,17 @@ pipeline operator in TS (coming out in future version of TS): step1 |> step2 |> 
 ## Translating to Code
 - add text file from above process into a test file e.g. notes.txt
 - Goal: be able to change functionality of application just by adding a field to the routeSchema and not have to propogate that change anywhere else for the code to still work
+- Goal: Each step so simple that it almost doesn't make sense to test
 - Now adding a use case, Add Route
-  - 
+  - use Case (Add Route), the factory that returns the use case is called a composition root
+ 
+- Factory pattern
+  - implement when deciding what to do
+  - function code is how to do it, returning function
+ 
+- Functional coding
+  - define functions as constants that are functions instaed of directly as functions
+  - defining functions as higher order, 1st class, functions are just data you can hand around
 
 tip: commits should tell a story, this is how I completed the work for this ticket.
 tip: 
