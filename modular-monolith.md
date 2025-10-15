@@ -1,0 +1,3 @@
+- Module to module communication
+  - only through service layer (use case)
+  - type declarations are an exception
