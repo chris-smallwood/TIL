@@ -36,8 +36,15 @@ TCP is not a textual protocol. TCP is a connection-oriented, reliable, byte stre
   - home router is a combo device that combines a router and a switch
     - Most home routers also have an access point which allows LAN devices to use WiFi
   - Distributed router structure
+  - Routing table: created by a processor inside the router. Used to determine which path (port) to forward the packet to
+- The internet is the 'Netowrk of Networks'
+- Connecting to the internet from the computer's perspective
+  - Need to use the router feature of a Home-Router (don't need the switch part for this)
+  - Servers, computers with more powerful hardware for handling packet transmission from much more traffic than your personal PC
   - 
 
+#### HTTP - videos
+- TLS
 
 ### Code Review
 #### https://github.com/
@@ -57,6 +64,9 @@ Regex
    
 ### Brandon Pairing
 
+RAY-977
+- 
+
 - checkout tsconfig.json
 - parse vs safeParsej
 - types vs interfaces
@@ -72,14 +82,15 @@ Regex
 Brandon's last minute DDD domain/use-case process meeting
 - 45 max is not used anywhere in backend as of yet
 
+Functional programming
+- build complicated systems from very simple/small steps
+
+Making as much of your code UNIT testable as possible, you are probably following most if not all of SOLID principles
+
 ### Wataru Pairing
 
 - Module to module communication
   - only through service layer (use case)
   - type declarations are an exception
   - 
-
-
-
-### Wataru Pairing
 
