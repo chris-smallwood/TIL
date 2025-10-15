@@ -1,5 +1,7 @@
 # Functional Programming
 
+build complicated systems from very simple/small steps
+
 ## Pairing w/ Brandon 5/7/25
 
 ### Game Scoring Repo
