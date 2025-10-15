@@ -1,0 +1,5 @@
+- Usecase should never be importing anything from the repository, clean architecture
+  - usecase should define the type of repo IT needs and then the repo type (defined in repo layer) should implement that
+  - define our repo interfaces in the usecase, do not import from repo to usecase
+  - implement repo to meet the interface defined in the usecase
+  - interface has advantage over type here when defining repo needed by usecase, look into it
