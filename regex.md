@@ -1,0 +1,7 @@
+- `^` means start of a string
+- `[a-z]` matches any lowercase english letter
+- `+` means one or more characters required
+- `$` means end of string
+- `/.../` JS/TS regex literal, wrap any regex in this when writing JS/TS
+  - Optional flags go after second `/` e.g. adding `/.../i` would be case insensitive
+- All together `/^[a-z]+$/` means lowercase alphabet only min 1
