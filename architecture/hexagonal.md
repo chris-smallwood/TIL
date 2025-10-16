@@ -2,6 +2,7 @@
 AKA Ports and Adapters
 
 Goal: decouple domain logic (business rules) from external concerns like db, API's, UI's
+
 Result: maintainable, testable, scalable backends
 
 Components:
@@ -19,7 +20,7 @@ Uses:
 
 Results:
 - Infrastructure Agnostic: core should not depend on external libraries or frameworks... implementation details
+- domain logic knows nothing external to it, everything external managed via adapters
 
 Questions:
-- adapters can import ports (interfaces), core service implements a port (interface)
-- domain logic knows nothing external to it, everything external managed via adapters
+- adapters can import ports (interfaces), core service implements a port (interface)?
