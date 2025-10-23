@@ -4,6 +4,11 @@
 
 ### EXP - Present
 
+#### Hexagonal Architecture
+https://jmgarridopaz.github.io/content/hexagonalarchitecture.html#tc3
+
+
+
 
 #### HTTP - videos
 - TLS
