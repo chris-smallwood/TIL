@@ -31,7 +31,49 @@ https://jmgarridopaz.github.io/content/hexagonalarchitecture.html#tc3
 7. 
 
 
+#### Encapsulation
 
+ * Goal: Simplify our runtime functions to only take arguments that are operated on, not dependencies
+ * 
+ * Dependencies - services/tools used to perform operations (e.g., repository, logger)
+ * Parameters - data being operated on (e.g., generator, address)
+ * 
+ * What achieves this goal? Encapsulation (design principle)
+ * Encapsulation - hides and protects internal implementation details, exposes only what is necessary
+ * 
+ * How do we achieve encapsulation? Factory functions (design pattern)
+ * Factory functions - use Dependency Injection (pattern) to take dependencies as arguments... 
+ * ... And return runtime functions that have access to those dependencies
+ * 
+ * What allows the returned runtime function to have access to the dependencies? Closures (JS mechanism)
+ * Closure - a function that retains access to variables from its outer (enclosing) scope,
+ * even after the outer function returns
+ * 
+ * How are closures created? JS automatically creates a closure when
+ * a function that references outer scope variables is returned from another function.
+ * 
+ * Note: We also follow Dependency Inversion (design principle) by depending on abstractions (interfaces)
+ * rather than concrete implementations, which makes our code more flexible and testable.
+
+ 
+```ts
+// Example demonstrating the concepts above:
+// Factory function - buildExampleStepInUseCase
+// Dependency Injection - repository is injected as a parameter
+// Dependency Inversion - depends on CreateGeneratorRepository interface (abstraction), not concrete implementation
+function buildExampleStepInUseCase(repository: CreateGeneratorRepository) {
+  return async (address: GeneratorProps['address']) => {
+    // Closure captures 'repository'; 'address' is a parameter, not a dependency
+    // Encapsulation: callers don't need to know about 'repository'
+    await repository.findOpenGeneratorByAddress(address);
+  }
+}
+
+// Usage: repository dependency injected → closure captures it → only address needed when runtime function is called
+const exampleStepInUseCaseInstance = buildExampleStepInUseCase(repositoryInstance);
+// Encapsulation: callers don't need to know about 'repository'
+exampleStepInUseCaseInstance(specificAddress);
+```
 
 
 
